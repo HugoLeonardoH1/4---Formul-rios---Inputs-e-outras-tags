@@ -6,8 +6,8 @@
 
 :root {
   --font-family: "Poppins", sans-serif;
-  --text: 400 1rem/1.5 var(--font-family);
-  --text-sm: 400 0.875/1.4 var(var(--font-family));
+  --text: 400 1rem / 1.5 var(--font-family);
+  --text-sm: 400 0.875 / 1.4 var(var(--font-family));
 
   --text-primary: #292524;
   --text-secondary: #57534e;
@@ -16,11 +16,11 @@
 
   --surface-primary: #ffffff;
   --surface-secondary: #fee7d6;
+  --surface-disabled: #e7e5e4;
 
   --stroke-default: #d6d3d1;
   --stroke-highlight: #f3541c;
   --semantic-error: #dc2626;
-  
 }
 
 body {
@@ -35,4 +35,15 @@ h2 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
 }
