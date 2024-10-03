@@ -13,7 +13,7 @@
 .checkbox-wrapper {
   position: relative;
 
-  &[type="checkbox"] {
+  & [type="checkbox"] {
     all: unset;
     position: absolute;
     inset: 0;
